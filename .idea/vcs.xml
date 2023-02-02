@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/inode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/opcode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-account" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-audit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-awk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-capture" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-chameleon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-component" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-cond" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-console" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-cpu" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-crack" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-crontab" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-crypto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-cvs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-disk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-dns" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-elastic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-engine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-evtlog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-extract" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-fasthttp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-file" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-fsnotify" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-group" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-host" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-ifconfig" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-inode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-ip2region" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-kfk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-kit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-logon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-memory" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-minion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-net" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-opcode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-osquery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-plugin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-process" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-psnotify" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-region" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-registry" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-request" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-risk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-sam" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-sbom" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-ss" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-switch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-syslog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-tag" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-tail" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-time" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-track" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela-wmi" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vela/inode" vcs="Git" />
+  </component>
+</project>
