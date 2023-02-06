@@ -49,7 +49,6 @@ import (
 	registry "github.com/vela-ssoc/vela-registry"
 	request "github.com/vela-ssoc/vela-request"
 	risk "github.com/vela-ssoc/vela-risk"
-	sam "github.com/vela-ssoc/vela-sam"
 	sbom "github.com/vela-ssoc/vela-sbom"
 	service "github.com/vela-ssoc/vela-service"
 	ss "github.com/vela-ssoc/vela-ss"
@@ -101,7 +100,6 @@ func (dly *Deploy) withAll(xEnv vela.Environment) {
 	component.WithEnv(xEnv)
 	vdns.WithEnv(xEnv)
 	crontab.WithEnv(xEnv)
-	sam.WithEnv(xEnv)
 	kfk.WithEnv(xEnv)
 	crack.WithEnv(xEnv)
 	syslog.WithEnv(xEnv)
