@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"fmt"
 	"github.com/vela-ssoc/vela-kit/auxlib"
-	lua "github.com/vela-ssoc/vela-kit/lua"
+	"github.com/vela-ssoc/vela-kit/lua"
 	"github.com/vela-ssoc/vela-kit/mime"
 	"github.com/vela-ssoc/vela-kit/vela"
 	"strconv"

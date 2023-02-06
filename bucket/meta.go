@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"github.com/vela-ssoc/vela-kit/auxlib"
 	"github.com/vela-ssoc/vela-kit/execpt"
-	lua "github.com/vela-ssoc/vela-kit/lua"
+	"github.com/vela-ssoc/vela-kit/lua"
 	"github.com/vela-ssoc/vela-kit/pipe"
 	"github.com/vela-ssoc/vela-kit/xreflect"
 )

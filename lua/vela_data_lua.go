@@ -3,6 +3,7 @@ package lua
 import "errors"
 
 var (
+	InvalidVelaName  = errors.New("invalid name")
 	AlreadyRun       = errors.New("already running")
 	NotFoundCode     = errors.New("not found code")
 	NotFoundVelaData = errors.New("not found vela data")
@@ -50,6 +51,10 @@ func (ls *LState) NewVela(key string, typeof string) *VelaData {
 	vla.code = vc.Key()
 	vla.private = false
 	return vla
+}
+
+func (ls *LState) NewVelaData(key string, typeof string) *VelaData {
+	return ls.NewVela(key, typeof)
 }
 
 func (ls *LState) CheckVelaData(n int) *VelaData {

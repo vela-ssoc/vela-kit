@@ -12,7 +12,7 @@ go build -buildmode=plugin demo.go
 
 import (
 	"github.com/vela-ssoc/vela-kit/vela"
-	lua "github.com/vela-ssoc/vela-kit/lua"
+	"github.com/vela-ssoc/vela-kit/lua"
 	"github.com/vela-ssoc/vela-kit/xreflect"
 )
 

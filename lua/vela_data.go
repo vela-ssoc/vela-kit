@@ -45,6 +45,52 @@ type VelaData struct {
 	Data    VelaEntry
 }
 
+func IsChar(ch byte) bool {
+	if ch >= 'a' && ch <= 'z' {
+		return true
+	}
+
+	if ch >= 'A' && ch <= 'Z' {
+		return true
+	}
+
+	return false
+}
+
+func IsIntChar(ch byte) bool {
+	if ch >= '0' && ch <= '9' {
+		return true
+	}
+	return false
+}
+
+func VelaNameE(v string) error {
+	if len(v) < 2 {
+		return InvalidVelaName
+	}
+
+	if !IsChar(v[0]) {
+		return InvalidVelaName
+	}
+
+	n := len(v)
+	for i := 1; i < n; i++ {
+		ch := v[i]
+		switch {
+		case IsChar(ch), IsIntChar(ch):
+			continue
+
+		case ch == '_':
+			continue
+
+		default:
+			return InvalidVelaName
+		}
+	}
+
+	return nil
+}
+
 func NewVelaData(v VelaEntry) *VelaData {
 	return &VelaData{Data: v, private: false}
 }

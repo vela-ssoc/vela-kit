@@ -78,3 +78,57 @@ func (tb *LTable) CheckBool(key string, d bool) bool {
 	}
 	return d
 }
+
+func (tb *LTable) Pickup(vt LValueType, fn func(lv LValue)) {
+	arr := tb.Array()
+	n := len(arr)
+	for i := 0; i < n; i++ {
+		item := arr[i]
+		if item.Type() != vt {
+			continue
+		}
+		fn(item)
+	}
+}
+
+func (tb *LTable) Int() []int {
+	var ret []int
+	tb.Pickup(LTNumber, func(item LValue) {
+		ret = append(ret, int(item.(LNumber)))
+	})
+	return ret
+
+}
+
+func (tb *LTable) Int64() []int64 {
+	var ret []int64
+	tb.Pickup(LTNumber, func(item LValue) {
+		ret = append(ret, int64(item.(LNumber)))
+	})
+	return ret
+}
+
+func (tb *LTable) Uint() []int {
+	var ret []int
+	tb.Pickup(LTNumber, func(item LValue) {
+		ret = append(ret, int(item.(LNumber)))
+	})
+	return ret
+
+}
+
+func (tb *LTable) Uint64() []int64 {
+	var ret []int64
+	tb.Pickup(LTNumber, func(item LValue) {
+		ret = append(ret, int64(item.(LNumber)))
+	})
+	return ret
+}
+
+func (tb *LTable) Strings() []string {
+	var ret []string
+	tb.Pickup(LTString, func(item LValue) {
+		ret = append(ret, item.String())
+	})
+	return ret
+}

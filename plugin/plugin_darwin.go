@@ -2,7 +2,7 @@ package plugin
 
 import (
 	"github.com/vela-ssoc/vela-kit/env"
-	lua "github.com/vela-ssoc/vela-kit/lua"
+	"github.com/vela-ssoc/vela-kit/lua"
 	"runtime"
 )
 

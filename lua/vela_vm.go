@@ -241,6 +241,20 @@ func interceptorSelf(L *LState, inst uint32, baseframe *callFrame) bool {
 }
 
 func interceptorGetG(L *LState, inst uint32, baseframe *callFrame) bool {
+	reg := L.reg
+	cf := L.currentFrame
+	lbase := cf.LocalBase
+	A := int(inst>>18) & 0xff //GETA
+	RA := lbase + A
+	Bx := int(inst & 0x3ffff) //GETBX
+	key := cf.Fn.Proto.stringConstants[Bx]
+
+	val, ok := _G[key]
+	if ok {
+		reg.Set(RA, val)
+		return true
+	}
+
 	return false
 }
 

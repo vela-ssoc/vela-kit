@@ -69,7 +69,7 @@ func withEnvironment(env *Environment) {
 }
 
 func Create(mode string, name string, protect bool) *Environment {
-	env := &Environment{sub: &substance{}, tuple: make(map[string]any, 32)}
+	env := &Environment{sub: &substance{}, tuple: make(map[string]interface{}, 32)}
 	env.newEnvL(mode, name, protect)
 	env.openDb()
 	env.newAudit()

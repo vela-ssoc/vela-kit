@@ -2,7 +2,7 @@ package bucket
 
 import (
 	"github.com/vela-ssoc/vela-kit/execpt"
-	lua "github.com/vela-ssoc/vela-kit/lua"
+	"github.com/vela-ssoc/vela-kit/lua"
 	"github.com/vela-ssoc/vela-kit/vela"
 	"go.etcd.io/bbolt"
 )

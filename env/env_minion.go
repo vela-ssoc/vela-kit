@@ -89,7 +89,7 @@ func (env *Environment) HTTP(method string, path string, query string, body io.R
 	return env.tnl.HTTP(method, path, query, body, header)
 }
 
-func (env *Environment) PostJSON(path string, data any, reply any) error {
+func (env *Environment) PostJSON(path string, data interface{}, reply interface{}) error {
 	if env.tnl == nil {
 		return notFoundTnlE
 	}
@@ -97,7 +97,7 @@ func (env *Environment) PostJSON(path string, data any, reply any) error {
 	return env.tnl.PostJSON(path, data, reply)
 }
 
-func (env *Environment) Stream(mode string, data any) (vela.HTTPStream, error) {
+func (env *Environment) Stream(mode string, data interface{}) (vela.HTTPStream, error) {
 	if env.tnl == nil {
 		return nil, notFoundTnlE
 	}
