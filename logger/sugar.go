@@ -4,9 +4,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/natefinch/lumberjack"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+	lumberjack "gopkg.in/natefinch/lumberjack.v2"
 )
 
 func encoder(format string, color bool) zapcore.Encoder {

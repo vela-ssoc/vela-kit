@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a1ac9e04-4c4a-4b56-879b-ed7f7794f4af" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/injection.go" beforeDir="false" afterPath="$PROJECT_DIR$/injection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/vela_data.go" beforeDir="false" afterPath="$PROJECT_DIR$/lua/vela_data.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/vela_data_lua.go" beforeDir="false" afterPath="$PROJECT_DIR$/lua/vela_data_lua.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/vela_tab.go" beforeDir="false" afterPath="$PROJECT_DIR$/lua/vela_tab.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger/sugar.go" beforeDir="false" afterPath="$PROJECT_DIR$/logger/sugar.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "D:/github.com/vela-ssoc",
+    "last_opened_file_path": "D:/vela-ssoc/vela-kit",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
