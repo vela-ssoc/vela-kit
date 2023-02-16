@@ -62,7 +62,11 @@ func mainLoopWithContext(L *LState, baseframe *callFrame) {
 		cf.Pc++
 		select {
 		case <-L.ctx.Done():
-			L.RaiseError(L.ctx.Err().Error())
+			err := L.ctx.Err().Error()
+			if err == "context canceled" {
+				return
+			}
+			L.RaiseError(err)
 			return
 		default:
 			op = int(inst >> 26)
