@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1ac9e04-4c4a-4b56-879b-ed7f7794f4af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lua/vela_debug.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lua/vm.go" beforeDir="false" afterPath="$PROJECT_DIR$/lua/vm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lua/vela_state.go" beforeDir="false" afterPath="$PROJECT_DIR$/lua/vela_state.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

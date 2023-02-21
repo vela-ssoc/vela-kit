@@ -171,3 +171,7 @@ func (ls *LState) Keepalive() {
 	ls.metadata = nil
 	ls.SetTop(0)
 }
+
+func (ls *LState) StackTrace(level int) string {
+	return ls.stackTrace(level)
+}
